@@ -37,7 +37,6 @@ public class TargetX : MonoBehaviour
         }
                
     }
-
     // Generate a random spawn position based on a random index from 0 to 3
     Vector3 RandomSpawnPosition()
     {
@@ -48,7 +47,6 @@ public class TargetX : MonoBehaviour
         return spawnPosition;
 
     }
-
     // Generates random square index from 0 to 3, which determines which square the target will appear in
     int RandomSquareIndex ()
     {
